@@ -1,14 +1,13 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Brittany Hanford
+ * ID: 991633307
  */
 package ca.sheridancollege.week2.softwarefundamentals;
 
 /**
  * A class to model Card Objects.
- * Created in Week 2 for the cloning repository demo
- * @author dancye, 2019
+ *
+ *
  */
 public class Card 
 {
