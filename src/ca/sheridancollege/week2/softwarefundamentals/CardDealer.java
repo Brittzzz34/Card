@@ -21,7 +21,7 @@ public class CardDealer
         System.out.println("sevenSpades:"+sevenSpades.getValue());
         
         //THIS IS TO COMMIT A BRANCH
-        Card fiveHearts = new Card("Hearts", 7);
+        Card fiveHearts = new Card("Hearts", 5);
         fiveHearts.setSuit("Hearts");
         System.out.println("fiveHearts:"+fiveHearts.getValue());        
        
@@ -29,6 +29,11 @@ public class CardDealer
         Card threeDiamonds = new Card("Diamonds", 3);
         threeDiamonds.setSuit("Diamonds");
         System.out.println("threeDiamonds:"+threeDiamonds.getValue());
+        
+        //FINAL CARD FROM NETBEANS TO GITHUB
+        Card oneHearts = new Card("Hearts", 1);
+        oneHearts.setSuit("Hearts");
+        System.out.println("oneHearts:"+oneHearts.getValue());
         
         
     }
