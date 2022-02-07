@@ -13,7 +13,13 @@ public class CardDealer
 {
     public static void main(String[] args)
     {
-        Card nineClubs = new Card("Clbs", 9);
-        nineClubs.setSuit("diamonds");
+        Card nineClubs = new Card("Clubs", 9);
+        nineClubs.setSuit("Clubs");
+        System.out.println("nineClubs:"+nineClubs.getValue());
+        
+        Card sevenSpades = new Card("Spades", 7);
+        nineClubs.setSuit("Spades");
+        System.out.println("sevenSpades:"+sevenSpades.getValue());
+        
     }
 }
