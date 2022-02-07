@@ -20,5 +20,11 @@ public class CardDealer
         nineClubs.setSuit("Spades");
         System.out.println("sevenSpades:"+sevenSpades.getValue());
         
+        Card fiveHearts = new Card("Hearts", 7);
+        nineClubs.setSuit("Hearts");
+        System.out.println("fiveHearts:"+fiveHearts.getValue());
+        
+        //THIS WAS TO MAKE A BRANCH
+        
     }
 }
